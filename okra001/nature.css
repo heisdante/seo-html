@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.bg {
+    background-image: url(b-min.jpg);
+    padding: 200px 300px;
+    text-align: center;
+    background-size: cover;
+}
+
+.box {
+    border: 6px solid white;
+    margin: 50px;
+    color: white;
+}
+
+.box p {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.box h1 {
+    font-size: 70px;
+    font-family: "Playfair Display", serif;
+}
+.Freepik{
+    margin-bottom: 50px;
+}
+.GREEN{
+    padding-top: 70px;
+}

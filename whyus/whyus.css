@@ -1,0 +1,58 @@
+/* general */
+*{
+    font-family: "Merriweather", serif;
+}
+/* for all devices */
+
+p{
+    line-height: 1.7;
+    font-family: "Open Sans", sans-serif;
+}
+.btn-outline-primary{
+    border-radius: 50px;
+    border-color: #e7888c;
+    color: black;
+    padding: 13px 40px;
+    font-weight: bold;
+    margin-top:8px;
+    margin-bottom: 10px;
+}
+.btn-outline-primary:hover{
+    background-color: #e7888c;
+    color: white;
+    border-color: #e7888c;
+}
+
+
+.content-padding{
+    padding: 100px 250px;
+}
+.section-title{
+    font-weight: bold;
+}
+
+/* why us section  */
+.why-us-card{
+    border-radius: 25px;
+    border-color: #d9d9d9;
+    border-width: 3px !important;
+    border-width: 20px 10px;
+}
+.why-us-card .card-title{
+    font-size: 20px;
+    font-weight: 220px;
+}
+.why-us-card .card-text{
+    color: #a9a9a9;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-padding{
+        padding: 40px;
+    }
+    .btn-outline-primary{
+        margin-top: 4px;
+        margin-bottom: 5px;
+        border-radius: 25px;
+    }
+}

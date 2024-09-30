@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="phone">
+    <br><br>
+
+    <button onclick="dial(1)">1</button>
+    <button onclick="dial(2)">2</button>
+    <button onclick="dial(3)">3</button> <br><br>
+
+    <button onclick="call()">Call</button>
+    <button onclick="login('sghn', '1478')">Login</button>
+
+    <script>
+        function dial(digit) {
+            document.getElementById('phone').value += digit;
+        }
+
+        function call() {
+            alert('Calling ' + document.getElementById('phone').value + "...");
+        }
+
+        function login(email, password) {
+            if (email.length < 2 || password.length < 4) {
+                alert("Incorrect details");
+                return;
+            }
+
+            alert('Logging In .......');
+        }
+
+
+    </script>
+
+</body>
+
+</html>

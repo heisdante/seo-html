@@ -1,0 +1,71 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+.hero {
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    padding: 50x 80x;
+    padding-top: 250px;
+}
+
+.vr-h {
+    font-size: 52px;
+    padding-bottom: 15px;
+    color: #5338ec;
+}
+.heading{
+    padding: 50px 80px;  
+}
+
+.text-1 {
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.special-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.special-btn {
+    background-color: #5338ec;
+    color: white;
+    border-radius: 5px;
+    border-color: gray;
+    padding: 15px 45px;
+    letter-spacing: 2.5px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+.section {
+    background-color: #5338ec;
+}
+
+.section h4 {
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 100px;
+    font-size: 70px;
+}
+
+.section p {
+    color: white;
+    text-align: center;
+}
+
+.service-card {
+    border-radius: 15px;
+    text-align: center;
+    border-color: #5338ec;
+    font-size: 17px;
+}
+
+.service-card h2 {
+    color: #5338ec;
+    font-size: 20px;
+    font-weight: bold;
+}

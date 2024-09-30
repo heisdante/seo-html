@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .light {
+            background-color: white;
+            color: black;
+        }
+
+        .dark {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <div>
+        <label for="">Email</label>
+        <input type="email" id="email">
+
+        <br>
+        <br>
+
+        <label for="">Password</label>
+        <input type="password" id="password">
+
+        <br>
+        <br>
+
+        <button onclick="login()" id="login-btn">Login</button>
+
+        <button onclick="theme()" id="theme-btn">Dark mode</button>
+    </div>
+    <script>
+        function login() {
+            var btn = document.getElementById("login-btn");
+            btn.innerHTML = "<h3>Processing</h3>";
+            btn.innerText = "Processing";
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            alert("Email " + email);
+            alert("Password " + password);
+        }
+
+        function theme() {
+            var body = document.getElementById("body");
+            if (body.className == 'dark') {
+                body.className = 'light';
+                document.getElementById("theme-btn").innerText = 'Dark Mode';
+            } else {
+                body.className = 'dark';
+                document.getElementById('theme-btn').innerText = "Light Mode"
+            }
+            console.log(body.className);
+        }
+    </script>
+
+</body>
+
+</html>

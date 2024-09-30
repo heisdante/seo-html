@@ -1,0 +1,545 @@
+*{
+    font-family:"Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.logo{
+    padding-left: 100px;
+}
+.hamburger{
+   position: relative;
+   padding-top: 10px;
+   margin-top: -10px;
+   left: 74%;
+   border: 0px;
+}
+.seo-services{
+    background-image: url(images/fggg.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+.content-padding{
+    padding: 65px 140px;
+}
+.hero{
+    padding-top: 60px;
+}
+.content-padding h1{
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 48px;
+    color: #6733e2;
+}
+.content-padding h5{
+    line-height: 2;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #6733e2;
+}
+.btn-special{
+    border-radius: 10px;
+    padding: 15px 56px;
+    background-color: #f8dd28;
+    color: #6733e2;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.btn-special:hover{
+    background-color:#6733e2 ;
+    color: white;
+}
+.I-felt{
+    background-color: #6733e2;
+    color: white;
+    padding: 20px;
+    height: 425px;
+    border-radius: 10px;
+}
+.text-0{
+    padding-bottom: 35px;
+    padding-top: 25px !important;
+    color: white !important;
+    margin-left: -2px !important;
+}
+.I-felt p{
+    color: black;
+    margin-left: -35px;
+    padding-top: 15px;
+}
+.headline{
+    padding-left: 50px;
+    line-height: 2;
+}
+.headline h4{
+    font-size: large;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.headline h2{
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.text-1{
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.text-2{
+    padding-bottom: 20px;
+    font-size: large;
+}
+.container {
+    display: flex;
+  }
+  .fade-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: fadeInLeft 2s forwards;
+  }
+
+  .fade-right {
+    opacity: 0;
+    transform: translateX(50px);
+    animation: fadeInRight 2s forwards;
+  }
+
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+.in-view-left {
+    opacity: 1;
+    transform: translateX(0); /* Slide back to original position */
+}
+
+.in-view-right {
+    opacity: 1;
+    transform: translateX(0); /* Slide back to original position */
+}
+.title-1{
+    text-align: center;
+    background-color: #6733e2;
+}
+.title-1 h1{
+    color: #f8dd28;
+    padding-top: 60px;
+    font-size: 60px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.title-1 h6{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.service-card{
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.service-card h3{
+    color:#6733e2;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.service-card .btn-special{
+    border-radius: 50px;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    font-size: small;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.service-card .btn-special:hover{
+    background-color: #6733e2;
+    color: #f8dd28 !important;
+}
+.service-card p{
+    color: #808080;
+    font-size: 18px;
+}
+.icon{
+    background-color: #f8dd28;
+    position: absolute; 
+    top: -30px;             /* Move it up 25px above the top of the rectangular div */
+    left: 50%;              /* Move it to the center horizontally */
+    transform: translateX(-50%); /* Center it by shifting it left by 50% of its own width */
+    width: 90px;            /* Set the size of the circular div */
+    height: 90px;
+    background-color:#f8dd28; /* A background color for the circle */
+    border-radius: 50%;     /* Make the div circular */
+    display: flex;          /* Center the icon inside the circle */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1)
+}
+.u-trending{
+    margin-left: 50px;
+    width: 400px;   /* Set the desired width */
+    height: auto;   /* The height will adjust automatically to maintain aspect ratio */
+    }
+.content{
+   margin-left: -15px;
+   line-height: 2;
+   font-size: 18px;
+}
+.How-we-create p{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.How-we-create h1{
+    font-size: 55px;
+    font-family: "Montserrat", sans-serif;
+}
+.title-1 h3{
+    margin-top: 80px;
+}
+.icon-2{
+    position: absolute; 
+    top: 480px;    
+    margin-left: 240px;
+    width: 100px;            /* Set the size of the circular div */
+    height: 100px; 
+}
+.u-svg-content{
+    position: absolute; 
+    top: -5px;    
+    margin-left: 240px;
+    justify-content: center;
+    align-items: center;
+    right: 43.5%;
+    fill: #6733e2;
+    height: 40px;
+    width: 40px;
+}
+.our-team-sec p{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.service-card-1 p{
+    font-size: 22px;
+}
+.service-card-1 h5{
+    margin-top: -20px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.our-team{
+    text-align: center;
+}
+.our-team-s{
+    border-radius: 30px !important;
+}
+.our-team-sec .center-text{
+    font-size: 25px;
+    margin-bottom: -20px;
+    font-style: italic;
+    line-height: 2;
+}
+.s-svg-content{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    fill: #6733E2;
+    justify-content: space-between;
+    width: 35%;
+    margin-bottom: 25px;
+}
+.our-team img{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.content{
+    font-size: 16px !important;
+    margin-top: -20px;
+    font-style: italic;
+    font-weight: 450;
+    align-self: center;
+}
+.service p{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+.service h5{
+    color: #6733e2;
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.service{
+    padding: 60px;
+    border-radius: 15px;
+}
+.faq h1{
+    color: #6733e2;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 35px;
+}
+.dash{
+    background-color: #6733e2;
+    padding: 4px;
+    margin-left: 630px;
+    margin-right: 640px;
+    margin-top: 25px;
+}
+/* Accordion button styling */
+.accordion-button {
+    background-color: #F8DD28; /* Yellow background */
+    color:#6733E2; /* Black text color */
+    font-weight: 650; /* Bold text */
+    padding: 15px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between buttons */
+    text-align: left; /* Align text to the left */
+    width: 100%;
+    height: 80px;
+}
+
+/* Active button state (when it's clicked/expanded) */
+.accordion-button:hover {
+    background-color: #6733E2; /* Purple background */
+    color: #fff; /* White text */
+}
+
+/* Accordion content (hidden by default, shown when clicked) */
+.accordion-content {
+    display: none; /* Hidden by default */
+    background-color: #fff; /* White background for content */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Open content state */
+.accordion-content.active {
+    display: block; /* Show when clicked */
+}
+
+/* FAQ section title styling */
+.faq-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6733E2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Modal aligns to the left */
+.left-modal .modal-dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 100%;
+    width: 20%; /* Adjust the width as needed */
+}
+
+/* Modal content fills the left side */
+.left-modal .modal-content {
+    height: 100%;
+    background-color: black; /* Dark background */
+    color: white;           /* White text */
+}
+.last-sec{
+    background-color:#f8dd28;
+}
+.font-style h1{
+    font-size: 35px;
+}
+.font-style h4{
+   font-size: 19px;
+   font-weight: bold;
+   margin-bottom: 30px;
+   line-height: 1.7;
+}
+.font-style p{
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.last-svg{
+    width: 10% !important;
+    height: 25px !important;
+}
+.fs-2 h1{
+    font-size: 19px;
+    font-weight: bold;
+}
+.form-control-lg{
+    padding-right: 100px;
+    margin-left: -10px;
+    border-radius: 10px;
+    margin: -7px;
+    font-family: sans-serif;
+}
+.large-textarea{
+    padding-bottom: 60px;
+    padding-right: 30px;
+}
+.end-btn{
+    background-color: #6733e2;
+    color: white;
+    padding-right: 250px;
+    padding-left: 50px;
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 15px;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
+.colors-background {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Set relative positioning for the cards to be absolute */
+    overflow: hidden;
+}
+
+
+.colors-background .color-block-1 {
+    width: 100%;
+    height: 20%;
+    background: #6733E2;
+}
+
+.colors-background .color-block-2 {
+    width: 100%;
+    height: 30%;
+    background: #F8DD28;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.colors-background .color-block-3 {
+    width: 100%;
+    height: 50%;
+    background: #6733E2;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.custom-card {
+    background-color: white; /* Ensure the card has its own background */
+    border-radius: 10px; /* Optional: Rounded corners */
+    align-items: center;
+    
+}
+
+.custom-card .card-body {
+    padding: 20px; /* Add padding for the card content */
+}
+.cc-1{
+    position: absolute;
+    top: 7%; /* Adjust this value as needed for vertical alignment */
+    left: 10%; /* Adjust this for horizontal alignment */
+    margin-left: 20px;
+}
+.cc-2{
+    position: absolute;
+    top: 7%; /* Same top value as cc-1 */
+    left: 40%;
+    margin-top: 145px;
+    margin-left: -25px;
+}
+.cc-3{
+    position: absolute;
+    top: 7%; /* Adjust this value as needed for vertical alignment */
+    right: 10%; /* Adjust this for horizontal alignment */
+}
+.cards-container{
+    padding-bottom: 250px;
+}
+.testimonial-1{
+    margin-top: -290px;
+}
+.testimonial-3{
+    margin-top: -290px;
+}
+.cards-container img{
+    width: 60px;
+    height: 60px;
+}
+.card-text{
+    font-weight: 320;
+    font-size: larger;
+    line-height: 1.7;
+    letter-spacing: 1.5px;
+}
+.cards-container h5{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 450;
+    font-size: medium;
+}
+.fw-bold{
+    font-weight: bolder;
+    margin-top: -12px;
+    letter-spacing: 1px;
+}
+.sample-text{
+    margin-bottom: 200px;
+    color: white;
+    font-size: small;
+}
+.web-temp{
+}
+@media only screen and (max-width: 600px) {
+    .cards-container{
+        display: block;
+    }
+    .testimonial-1{
+        margin-top: -290px;
+    }
+
+}
